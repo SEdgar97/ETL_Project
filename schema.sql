@@ -1,5 +1,5 @@
 Create table cars (
-id int,
+id int PRIMARY KEY,
 Manufacturer Varchar(30),
 Model Varchar(30),
 Transmission Varchar(30),
@@ -16,7 +16,7 @@ List_Duration int
 );
 
 Create Table sara_cars(
-id int,
+id int PRIMARY KEY,
 price int, 
 mark varchar(30),
 model varchar(30), 
@@ -30,6 +30,7 @@ fuel varchar(30)
 );
 
 Create table vehicles (
+id int PRIMARY KEY
 Manufacturer varchar(30),
 Model varchar(30),
 Vehicle_Type varchar(30),
@@ -42,5 +43,3 @@ Curb_Weight float,
 Fuel_Capacity float,
 Fuel_Efficiency float
 )
-
-select * from  vehicles
